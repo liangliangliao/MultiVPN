@@ -1,0 +1,22 @@
+# Android / Gradle
+.gradle/
+build/
+**/build/
+local.properties
+.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.jks
+*.keystore
+# Never commit credentials or imported VPN profiles
+*.ovpn
+*.p12
+*.pfx
+*.key
+wg*.conf
+profiles.json
+secrets.properties
