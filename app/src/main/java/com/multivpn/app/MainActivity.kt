@@ -200,7 +200,7 @@ private fun MultiVpnScreen(
                         profiles = profiles, policy = policy,
                         enabled = !storageLocked, onPolicyChange = onPolicyChange
                     )
-                    ProfilesCard(profiles, ::onGoImport, onDelete = { deleting = it })
+                    ProfilesCard(profiles, onAddClick = { screen = 1 }, onDelete = { deleting = it })
                 }
                 1 -> {
                     Section("导入已有 VPN / 代理配置", "密钥加密保存在设备内；不会上传到服务器")
